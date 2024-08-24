@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PutMapping;
 
-@CrossOrigin("http://127.0.0.1:5500")
+@CrossOrigin("localhost")
 @RestController
 public class UserController {
     
